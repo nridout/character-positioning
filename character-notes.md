@@ -5,17 +5,19 @@ Instead of having your function countLetters return just the count of each lette
 
 1. First, ask yourself: What would the resulting object (key-value mapping) look like with the same example string ("lighthouse in the house")?
 
-///
+```
 {
-  l: 1,
-  i: 2,
-  g: 1,
-  h: 4,
-  t: 2,
-  o: 2,
-  u: 2,
-  s: 2,
-  e: 3,
-  n: 1,
+  l: [0],
+  i: [1, 10],
+  g: [2],
+  h: [3, 5, 13, 15],
+  t: [4, 12],
+  o: [6, 16],
+  u: [7, 17],
+  s: [8, 18],
+  e: [9, 14, 19],
+  n: [11]
 }
-///
+```
+
+"lighthouse in the house"
